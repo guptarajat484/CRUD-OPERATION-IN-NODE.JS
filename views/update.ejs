@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="/">Home</a>
+    <a href="/show">Show</a>
+    <form action="/updatestudent" method="POST">
+        <input type="number" readonly value="<%=record.Id%>" name="Id">
+        <input type="text" value="<%=record.fname%>" name="fname">
+        <input type="text" value="<%=record.lname%>" name="lname">
+        <button type="submit">Update</button>
+    </form>
+
+    </form>
+</body>
+
+</html>
